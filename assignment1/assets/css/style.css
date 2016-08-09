@@ -81,7 +81,8 @@ a.navLink:hover {
 
 .contentHead {
 	display: block;
-	padding-bottom: 20px;
+	padding-bottom: 5px;
+	margin-bottom: 20px;
 	text-align: left;
 	font-size: 35px;
 	color: #4aaaa5;
@@ -189,12 +190,58 @@ footer {
 	color: #ffffff;
 }
 
-@media screen and (max-width: 980px) { 
+@media screen and (max-width: 980px) {
+
+	.bodySection {
+		margin-top: 10px;
+	}
 	
+	.tableData {
+		display: block;
+	}
+
+	/*.imgPort {
+		height: 150px;
+		width: 200px;
+	}*/
 }
+
 
 @media screen and (max-width: 768px) {
 	
+	.tableData {
+		display: inline-block;
+	}
+
+	section {
+		display: block;
+	}
+
+	aside {
+		display: block;
+		margin-left: 135px;
+		margin-right: 0px;
+		margin-top: 30px;
+		float: none;
+
+	}
+
+	.name {
+		margin-right: 82px;
+	}
+
+	.connectTable {
+		width: 450px;
+	}
+
+	.socialTH {
+		padding-right: 260px;
+	}
+
+	.socialTD{
+		width: 300px;
+		text-align: left;
+	}
 }
 
 @media screen and (max-width: 640px) {
