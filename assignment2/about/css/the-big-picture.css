@@ -10,13 +10,21 @@ body {
 	background: none;
 }
 
-/*.full {
-  background: url(../css/images/mediaman.jpg) no-repeat center center fixed; 
+.nav-float {
+	float: right;
+}
+
+.full {
+  background: url(../css/images/shell2.png) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}*/
+}
+
+footer {
+	margin: 50px 0;
+}
 
 @import "compass/css3";
 
@@ -25,7 +33,7 @@ body {
   100% { opacity: 1; }
 }
 
-.background-image {
+/*.background-image {
   background: url('../css/images/mediaman.jpg') no-repeat center center fixed;
   
   -webkit-background-size: cover;
@@ -42,12 +50,12 @@ body {
   opacity: 0;
   
   -webkit-animation-name: fade-in;
-  -webkit-animation-duration: 1s;
+  -webkit-animation-duration: 1.5s;
   -webkit-animation-timing-function: ease-in;
   -webkit-animation-iteration-count: 1;
-  -webkit-animation-delay: 2s;
+  -webkit-animation-delay: 1s;
 }
 
 .background-image.visible {
   opacity: 1;
-}
+}*/

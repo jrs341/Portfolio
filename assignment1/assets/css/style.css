@@ -40,13 +40,14 @@ section {
 }
 
 .name {
-	margin-right: 319px;
+	margin-right: 320px;
 	margin-left: 125px;
 	padding:20px;
 	background-color: #4aaaa5;
 	color: #ffffff;
-	font-family: Georgia Times serif;
-	font-size: 35px;
+	font-family: Georgia, Times, serif;
+	font-size: 25px;
+	font-weight: bold;
 }
 
 .nameLink {
@@ -68,7 +69,7 @@ li {
 	margin: 5px;
 	display: inline;
 	font-size: 15px;
-	font-family: arial Helvetica sans-serif;
+	font-family: arial, Helvetica, sans-serif;
 }
 
 .navLink {
@@ -85,6 +86,7 @@ a.navLink:hover {
 	margin-bottom: 20px;
 	text-align: left;
 	font-size: 35px;
+	font-weight: bold;
 	color: #4aaaa5;
 	background-color: #ffffff;
 	border-bottom: 2px solid #dddddd;	
@@ -123,6 +125,8 @@ tbody {
 
 th {
 	color: #4aaaa5;
+	font-weight: bold;
+	font-size: 18px;
 	background-color: #ffffff;
 	padding: 20px;
 	border-bottom: 2px solid #cccccc;
@@ -147,8 +151,8 @@ a.socialLink:hover {
 
 .bannerPort{
 	position: absolute;
-	font-family: Arial Helvetica Helvetica Neue sans-serif;
-	font-size: 17px;
+	font-family: Arial, Helvetica, Helvetica Neue, sans-serif;
+	font-size: 16px;
 	color: #ffffff;
 	height: 30px;
 	width: 150px;
@@ -192,30 +196,51 @@ footer {
 
 @media screen and (max-width: 980px) {
 
-	.bodySection {
-		margin-top: 10px;
+	section {
+		width: 300px;
 	}
 	
 	.tableData {
 		display: block;
 	}
 
-	/*.imgPort {
-		height: 150px;
-		width: 200px;
-	}*/
+	.imgPort {
+		height: 250px;
+		width: 300px;
+	}
+
+	.bannerPort {
+		width: 300px;
+		margin-top: 205px;
+	}
 }
 
 
 @media screen and (max-width: 768px) {
 	
+	/*.tableData {
+		display: inline-block;
+	}*/
+
+	section {
+		display: block;
+		width: 340px;
+	}
+
+	.imgPort {
+		height: 150px;
+		width: 150px;
+	}
+
 	.tableData {
 		display: inline-block;
 	}
 
-	section {
-		display: block;
+	.bannerPort {
+		width: 150px;
+		margin-top: 107px;
 	}
+
 
 	aside {
 		display: block;
@@ -227,23 +252,24 @@ footer {
 	}
 
 	.name {
-		margin-right: 82px;
+		margin-right: 12px;
 	}
 
 	.connectTable {
-		width: 450px;
+		width: 380px;
 	}
 
 	.socialTH {
-		padding-right: 260px;
+		padding-right: 222px;
 	}
 
 	.socialTD{
-		width: 300px;
+		width: 265px;
 		text-align: left;
 	}
 }
 
 @media screen and (max-width: 640px) {
+
 	
 }
