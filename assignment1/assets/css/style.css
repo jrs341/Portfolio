@@ -3,9 +3,7 @@ html, body {
 	height: 100%;
 	width: 960px;
 	background-image: url('../images/ricepaper_v3.png');
-
 }
-
 
 .page-wrap {
 	min-height: 100%;
@@ -101,8 +99,8 @@ img {
 
 .aboutPara{
 	padding-top: 20px;
-	clear: left;
-	float: right;
+	font-family: arial, Helvetica, sans-serif;
+	line-height: 1.618;
 }
 
 aside {
@@ -199,6 +197,19 @@ footer {
 	section {
 		width: 300px;
 	}
+
+	.contentHead {
+		margin-bottom: 10px;
+	}
+
+	.about980px {
+		margin: 0px 50px 20px 22px;
+	}
+
+	.aboutImg980px {
+		height: 250px;
+		width: 250px;
+	}
 	
 	.tableData {
 		display: block;
@@ -221,14 +232,14 @@ footer {
 
 
 @media screen and (max-width: 768px) {
-	
-	/*.tableData {
-		display: inline-block;
-	}*/
 
 	section {
 		display: block;
 		width: 340px;
+	}
+
+	.about980px {
+		margin: 0px 10px 10px 0px;
 	}
 
 	.imgPort {
@@ -245,14 +256,12 @@ footer {
 		margin-top: 107px;
 	}
 
-
 	aside {
 		display: block;
 		margin-left: 135px;
 		margin-right: 0px;
 		margin-top: 30px;
 		float: none;
-
 	}
 
 	.name {
@@ -283,9 +292,11 @@ footer {
 		padding: 0px;
 	}
 
-	/*li {
-		margin: 23px;
-	}*/
+	.aboutImg980px {
+		height: 300px;
+		width: 300px;
+		margin: 0px 10px 10px 20px;
+	}
 
 	.li {
 		margin-left: 138px;
