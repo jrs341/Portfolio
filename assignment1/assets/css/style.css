@@ -66,7 +66,7 @@ ul {
 }
 
 li {
-	margin: 5px;
+	margin: 5px 5px 5px 5px;
 	display: inline;
 	font-size: 15px;
 	font-family: arial, Helvetica, sans-serif;
@@ -213,6 +213,10 @@ footer {
 		width: 300px;
 		margin-top: 205px;
 	}
+
+	.overlap {
+		margin-top: 475px;
+	}
 }
 
 
@@ -270,6 +274,46 @@ footer {
 }
 
 @media screen and (max-width: 640px) {
+	
+	.siteHeader {
+		margin-top: -30px;
+	}
 
+	nav {
+		padding: 0px;
+	}
+
+	/*li {
+		margin: 23px;
+	}*/
+
+	.li {
+		margin-left: 138px;
+	}
+
+	.navLink2 {
+		margin-left: 98.49px;
+	}
+
+	.navLink3 {
+		margin-left: 100px;
+	}
+
+	.name {
+		display: block;
+		margin-bottom: 23px;
+		margin-left: 0px;
+		padding-left: 249px;
+	}
+
+	.imgPort {
+		height: 250px;
+		width: 300px;
+	}
+
+	.bannerPort {
+		width: 300px;
+		margin-top: 205px;
+	}
 	
 }
