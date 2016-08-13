@@ -1,7 +1,17 @@
-.navFont {
-	color: #4aaaa5;
+body {
+	background-image: url('images/ricepaper_v3.png');
 }
 
-a {
+/*.navFont {
 	color: #4aaaa5;
+}*/
+
+.navBackgroundColor {
+	background-color: #4aaaa5;
+	color: #ffffff;
 }
+
+.navFont {
+	color: #ffffff;
+}
+
